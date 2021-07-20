@@ -1,0 +1,86 @@
+/*@media screen and (min-width:100px) and (max-width:200px) {
+    body { font-weight:bold; color:#555; }
+}*/
+
+* {
+  box-sizing: border-box;  
+}
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+.container {
+  max-width: 90%;
+  margin: 2rem auto;
+  border-radius: .5rem;
+  overflow: hidden;
+  
+}
+.head-container, .middle-container, .bottom-container {
+  padding: 1rem;
+}
+.head-container {
+  background-color: white;
+}
+.head-container p {
+  color: hsl(218, 22%, 67%);
+}
+.middle-container {
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(0,0%,100%, .8);
+}
+.dollar-middle-container {
+  color: hsl(0,0%,100%);
+  font-size: 1.5rem;
+}
+.text-middle {
+  color: hsl(0,0%,100%);
+}
+.duration-middle-container {
+  color: hsl(0,0%,100%, .6);
+}
+.bottom-container {
+  background-color: hsl(179, 62%, 43%, .6);
+  /*background-color: rgba(42, 156, 154, .5);*/
+  color: hsl(0,0%,100%, .6);
+}
+.middle-container a:link, a:visited {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 100px;
+  border-radius: .2rem;
+  display: inline-block;
+}
+.text-h3 {
+  color: hsl(179, 62%, 43%);
+}
+.text-h4 {
+  color: hsl(71, 73%, 54%);
+}
+.text-bottom {
+  color: hsl(0,0%,100%);
+}
+
+/*
+body {
+  background-color: 
+  hsl(179, 62%, 43%) }
+  body {
+      background-color: hsl(204, 43%, 93%)}
+      body {
+        background-color: hsl(218, 22%, 67%);*/
+}
